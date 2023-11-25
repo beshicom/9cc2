@@ -1,0 +1,20 @@
+
+
+
+#include	<windows.h>
+#include	"SearchInclude.h"
+
+
+
+FirstMenu	MENU
+{
+	POPUP	"Test"
+	{
+		MENUITEM	"Start", IDM_OPEN
+		MENUITEM	SEPARATOR
+		MENUITEM	"Exit", IDM_EXIT
+	}
+}
+
+
+
